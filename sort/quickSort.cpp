@@ -49,3 +49,13 @@ vector<int>::iterator QuickSort::partitionDesc(vector<int>::iterator begin, vect
     iter_swap(pivot, prev(index));
     return prev(index);
 }
+
+//int main() {
+//    QuickSort qs = QuickSort();
+//    vector<int> nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
+//    qs.sort(nums.begin(), nums.end());
+//    for (auto num: nums) {
+//        cout << num << " ";
+//    }
+//    cout << endl;
+//}

@@ -45,10 +45,10 @@ public:
     }
 };
 
-int main() {
-    vector<int> nums = {1, 1, 1, 2, 2, 3};
-    Solution s;
-    for (auto num: s.topKFrequent(nums, 2))
-        cout << num << " ";
-    cout << endl;
-}
+//int main() {
+//    vector<int> nums = {1, 1, 1, 2, 2, 3};
+//    Solution s;
+//    for (auto num: s.topKFrequent(nums, 2))
+//        cout << num << " ";
+//    cout << endl;
+//}

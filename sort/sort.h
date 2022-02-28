@@ -9,13 +9,28 @@
 #include<vector>
 #include<iterator>
 #include<unordered_map>
+
 using namespace std;
 
-class QuickSort{
+class QuickSort {
 public:
     static void sort(vector<int>::iterator begin, vector<int>::iterator end);
+
     static void sortDesc(vector<int>::iterator begin, vector<int>::iterator end);
+
     static vector<int>::iterator partition(vector<int>::iterator begin, vector<int>::iterator end);
+
+    static vector<int>::iterator partitionDesc(vector<int>::iterator begin, vector<int>::iterator end);
+};
+
+class QuickSort2 {
+public:
+    static void sort(vector<int>::iterator begin, vector<int>::iterator end);
+
+    static void sortDesc(vector<int>::iterator begin, vector<int>::iterator end);
+
+    static vector<int>::iterator partition(vector<int>::iterator begin, vector<int>::iterator end);
+
     static vector<int>::iterator partitionDesc(vector<int>::iterator begin, vector<int>::iterator end);
 };
 
