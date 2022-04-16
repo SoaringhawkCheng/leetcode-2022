@@ -23,7 +23,7 @@ public:
             for (int count = 0; count < m - 1; count++) {
                 int num = queue.front();
                 queue.pop_front();
-                queue.push_front(num);
+                queue.push_back(num);
             }
             queue.pop_front();
         }

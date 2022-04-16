@@ -3,4 +3,4 @@ project(leetcode_2022)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leetcode_2022 python-interview/length-of-longest-substr.cpp)
+add_executable(leetcode_2022 python-interview/duplicate-dna-sequence.cpp)
