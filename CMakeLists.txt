@@ -3,4 +3,4 @@ project(leetcode_2022)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leetcode_2022 python-interview/word-search.cpp)
+add_executable(leetcode_2022 python-interview/diff-ways-to-compute.cpp)
