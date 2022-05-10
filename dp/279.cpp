@@ -16,10 +16,10 @@ public:
         vector<int> dp(n + 1, 0);
         for (int i = 1; i <= n; i++) {
             int minNum = i;
-            vector<int>::iterator iter = squareList.begin();
-            while (iter != squareList.end() && *iter <= i) {
-                minNum = min(minNum, dp[i - *iter] + 1);
-                iter++;
+            for (auto iter = squareList.begin(); iter != squareList.end(); iter++) {
+                int rest = i - *iter;
+                if (rest < 0) break;
+                minNum = min(minNum, dp[rest] + 1);
             }
             dp[i] = minNum;
         }
@@ -29,10 +29,11 @@ public:
 
     void generateSquareList(vector<int> &squareList, int n) {
         int squareNum = 1;
-        int diff = 1;
+        int diff = 3;
         while (squareNum <= n) {
             squareList.push_back(squareNum);
-            diff = diff + 2;
+            squareNum += diff;
+            diff += 2;
         }
     }
 };

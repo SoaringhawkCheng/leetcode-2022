@@ -3,5 +3,5 @@ project(leetcode_2022)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leetcode_2022 greed/665.cpp)
+add_executable(leetcode_2022 search/93.cpp)
 #add_executable(leetcode_2022 python-interview/valid_stack_seq.cpp)
