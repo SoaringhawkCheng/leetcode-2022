@@ -26,7 +26,7 @@ public:
             }
 
             if (cnt < k) { low = mid + 1; }
-            else { high = mid - 1; }
+            else { high = mid; }
 //            else { return mid; }
         }
 
