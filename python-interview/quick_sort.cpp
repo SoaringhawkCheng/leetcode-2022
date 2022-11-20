@@ -41,12 +41,12 @@ private:
     }
 };
 
-//int main() {
-//    vector<int> nums = {1, 4, 2, 8, 5, 7};
-//    Solution s;
-//    s.quickSort(nums);
-//    for (auto num: nums) {
-//        cout << num << " ";
-//    }
-//    cout << endl;
-//}
+int main() {
+    vector<int> nums = {1, 4, 2, 8, 5, 7};
+    Solution s;
+    s.quickSort(nums);
+    for (auto num: nums) {
+        cout << num << " ";
+    }
+    cout << endl;
+}
